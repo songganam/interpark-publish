@@ -1,0 +1,133 @@
+{
+  "total": 8,
+  "live_1": {
+    "live-info": {
+      "image": "images/l1.jpg",
+      "icon": "방송예정",
+      "title": "[에듀트립] 글로벌 캠프 첫방 기념 최초 할인! 채팅 참여만 해도 경품 추첨",
+      "url": "c.html"
+    },
+    "live-day": {
+      "date": "11월 08일 (수)",
+      "time": "11:00"
+    },
+    "live-bottom": {
+      "bottom_image": "images/l1-1.jpg",
+      "bottom_title": "새로운 여행, 컨셉 트립 기획전",
+      "bottom_url": "bottom.html"
+    }
+  },
+
+  "live_2": {
+    "live-info": {
+      "image": "images/l2.jpg",
+      "icon": "방송예정",
+      "title": "제주 자연 속에서 즐기는 온전한 쉼 ✨ 파르나스 호텔 제주",
+      "url": "c.html"
+    },
+    "live-day": {
+      "date": "11월 23일 (목)",
+      "time": "19:00"
+    },
+    "live-bottom": {}
+  },
+  "live_3": {
+    "live-info": {
+      "image": "images/l3.jpg",
+      "icon": "VOD",
+      "title": "네스트호텔 라이브특가 구매하러 가기!",
+      "url": "c.html"
+    },
+    "live-day": {
+      "date": "11월 08일 (수)",
+      "time": "11:00"
+    },
+    "live-bottom": {
+      "bottom_image": "images/l3-1.jpg",
+      "bottom_discount": "73%",
+      "bottom_title": "네스트호텔 라이브특가 구매하러 가기!",
+      "bottom_url": "bottom.html"
+    }
+  },
+  "live_4": {
+    "live-info": {
+      "image": "images/l4.jpg",
+      "icon": "VOD",
+      "title": "[나트랑] 스완도르 올인클루시브 5일 70만원대~",
+      "url": "c.html"
+    },
+    "live-day": {},
+    "live-bottom": {
+      "bottom_image": "images/l4-1.jpg",
+      "bottom_title": "[카쇼라X스완도르 리조트] 올인클루시브 나트랑 3박 5일",
+      "bottom_price": "749,000",
+      "bottom_price_w": "원",
+      "bottom_url": "bottom.html"
+    }
+  },
+  "live_5": {
+    "live-info": {
+      "image": "images/l5.jpg",
+      "icon": "VOD",
+      "title": "전라도 특집 여수/전주/광주",
+      "url": "c.html"
+    },
+    "live-day": {},
+    "live-bottom": {
+      "bottom_image": "images/l5-1.jpg",
+      "bottom_discount": "81%",
+      "bottom_title": "히든베이 호텔",
+      "bottom_discount": "81%",
+      "bottom_price": "84,950",
+      "bottom_price_w": "원",
+      "bottom_url": "bottom.html"
+    }
+  },
+  "live_6": {
+    "live-info": {
+      "image": "images/l6.jpg",
+      "icon": "VOD",
+      "title": "진에어 동계 잔여석 & 3월 출발 단독 특가! 방송 중에만 제휴카드로 결제시 15% 추가 할인 🎁",
+      "url": "c.html"
+    },
+    "live-day": {},
+    "live-bottom": {
+      "bottom_image": "images/l6-1.jpg",
+      "bottom_title": "[실시간 항공권] 인천 ↔ 오사카",
+      "bottom_price": "217,900",
+      "bottom_price_w": "원",
+      "bottom_url": "bottom.html"
+    }
+  },
+  "live_7": {
+    "live-info": {
+      "image": "images/l7.jpg",
+      "icon": "VOD",
+      "title": "용평리조트 최대 85% 라이브 특가! 7만원대~",
+      "url": "c.html"
+    },
+    "live-day": {},
+    "live-bottom": {
+      "bottom_image": "images/l7-1.jpg",
+      "bottom_title": "용평리조트",
+      "bottom_discount": "80%",
+      "bottom_price": "72,000",
+      "bottom_price_w": "원",
+      "bottom_url": "bottom.html"
+    }
+  },
+  "live_8": {
+    "live-info": {
+      "image": "images/l8.jpg",
+      "icon": "VOD",
+      "title": "[이달의 여행] 코타키나발루 특가를 다 모았다!",
+      "url": "c.html"
+    },
+    "live-day": {},
+    "live-bottom": {
+      "bottom_image": "images/l8-1.jpg",
+      "bottom_title": "[이달의 여행] 코타키나발루 특가모음🎉",
+      "bottom_url": "bottom.html"
+    }
+  }
+}

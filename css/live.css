@@ -1,0 +1,144 @@
+.live {
+  position: relative;
+  width: 100%;
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #fff;
+}
+
+.live-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.live-header {
+  position: relative;
+}
+
+.live-title {
+  position: relative;
+  margin-bottom: 10px;
+  margin-bottom: 28px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: ;
+  text-align: center;
+}
+.live-title img {
+  position: relative;
+  height: 40px;
+}
+
+.live-main {
+  position: relative;
+  padding: 25px 0;
+}
+.live-slide-wrap {
+  position: relative;
+  height: 456px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.live-slide-item {
+  position: absolute;
+  display: block;
+  height: 100%;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.live-img {
+  position: absolute;
+  height: 456px;
+}
+.live-img img {
+  position: absolute;
+  height: 100%;
+}
+.live-info {
+  position: relative;
+  display: flex;
+}
+.live-info-icon {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-style: normal;
+  background-color: #333
+  border-radius: 10px;
+}
+.live-info-desc {
+  position: relative;
+  padding: 25px 22px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fff;
+}
+.live-info-date {
+  position: relative;
+  font-size: 2.8rem;
+  text-align: center;
+  color: #fff;
+}
+.live-info-time {
+  position: relative;
+
+  font-size: 2.8rem;
+  text-align: center;
+
+  color: #fff;
+}
+.live-info-bottom {
+  position: absolute;
+  bottom: 12px;
+  height: 40px;
+  padding: 0 12px;
+
+}
+
+.live-info-bottom img {
+  position: absolute;
+  margin: 360px 20px;
+  width: 64px;
+  height: 64px;
+}
+.live-info-bottom a {
+  position: absolute;
+  display: block;
+  margin
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.live-footer {
+  position: relative;
+}
+.live-home {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.live-home-bt {
+  position: relative;
+  display: block;
+  padding: 0px 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 1.4rem;
+  line-height: 56px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}
+
+.live-home-bt-active {
+  border: 1px solid transparent !important;
+  background-color: #333 !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}

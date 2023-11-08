@@ -1,0 +1,170 @@
+.book {
+  position: relative;
+  width: 100%;
+  display: block;
+  padding-bottom: 90px;
+}
+.book-inner {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.book-header {
+  position: relative;
+}
+
+.book-title {
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+
+.book-txt {
+  position: relative;
+  display: block;
+  font-size: 1.8rem;
+  color: #a7a9a7;
+  text-align: center;
+}
+
+.book-main {
+  position: relative;
+  padding: 25px 0;
+}
+
+.book-category {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.book-list {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.book-cate-bt {
+  position: relative;
+  display: block;
+  padding: 0px 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 1.4rem;
+  line-height: 42px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}
+
+.book-cate-bt-active {
+  border: 1px solid transparent !important;
+  background-color: #333 !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
+
+.book-slide-wrap {
+  position: relative;
+  height: 403px;
+  margin-top: 23px;
+}
+
+.book-slide-item {
+  position: relative;
+  height: 335px;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+
+.book-link {
+  position: relative;
+  display: block;
+  background-color: transparent;
+}
+.book-img {
+  position: absolute;
+  width: 100%;
+
+  height: 342px;
+  overflow: hidden;
+}
+
+.book-img img {
+  position: absolute;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  /* transform: translateX(-50%); translateY(-50%) ; */
+  transform: translate(-50%, -50%);
+}
+.book-info {
+  position: relative;
+  height: 65px;
+}
+
+.book-good-list {
+  position: relative;
+  height: 100%;
+}
+.book-good-list li {
+  position: relative;
+  height: 100%;
+  text-align: center;
+}
+
+.book-good-info-title {
+  position: relative;
+}
+
+.book-good-info-title p {
+  position: relative;
+  margin-top: 11px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #000;
+}
+
+.book-good-info-title em {
+  position: relative;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #111;
+}
+
+.book-footer {
+  position: relative;
+}
+
+.book-home {
+  position: relative;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+.book-home-bt {
+  position: relative;
+  display: block;
+  padding: 0px 20px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+  font-size: 1.4rem;
+  line-height: 56px;
+  color: #111;
+  cursor: pointer;
+  border-radius: 44px;
+}
+.book-home-active {
+  border: 1px solid transparent !important;
+  background-color: #333 !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+}
