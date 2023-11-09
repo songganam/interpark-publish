@@ -4,12 +4,12 @@
   display: block;
   padding-top: 0;
   padding-bottom: 90px;
-  background-color: ;
 }
 .tour-inner {
   position: relative;
   width: 1280px;
   margin: 0 auto;
+  background-color: #fff;
 }
 .tour-header {
   position: relative;
@@ -174,4 +174,3 @@
   font-weight: 700 !important;
   color: #fff !important;
 }
-
