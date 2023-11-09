@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
   };
 
   function makeHtmlTag(_res) {
-    let htmlRecommendTag = ``;
+    let htmlticketTag = ``;
     for (let i = 0; i < _res.total; i++) {
       const index = i + 1;
       const obj = _res["good_" + index];
@@ -44,37 +44,29 @@ window.addEventListener("load", function () {
       </div>
     </div>
       `;
+
       htmlTicketTag += tempTag;
     }
     showHtmlTag(htmlTicketTag);
   }
-  
+
   function showHtmlTag(_html) {
     const ticketSlide = ".ticket-slide .swiper-wrapper";
     const tag = document.querySelector(ticketSlide);
-    tag.innerHTML =
+    tag.innerHTML = _html();
+
+    makeSwiper();
   }
-  // 2. html 태그를 백틱을 이용해서 만든다.
 
-  // 3. swiper 태그에 백틱을 배치한다.
-  const reommendSlide = ".ticket-slide .slide-wrapper";
-
-  // 4. swiper 작동시킨다.
-  //   const ticket Swiper = new Swiper(".ticket-slide");
+  function makeSwiper() {
+    const swiperTicket = new Swiper(".ticket-slide", {
+      slidePerView: 4,
+      spaceBetween: 27,
+      navigation: {
+        nextEl: ".ticket-slide-wrap .slide-next-bt",
+        prevEl: ".ticket-slide-wrap .slide-prev-bt",
+      },
+      slidesPerGroup: 4,
+    });
+  }
 });
-
-function makeSwiper() {
- const swiperTicket = new Swiper (".Ticket-slide", {
-  slidePerView: 4,
-  spaceBetween: 27,
-  navigation: {
-    nextEl: ".ticket-slide-wrap .slide-next-bt",
-    prevEl: ".ticket-slide-wrap .slide-prev-bt",
-  },
-  slidesPerGroup: 4,
-
- }
-
- )
-
-}

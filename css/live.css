@@ -43,9 +43,9 @@
 }
 
 .live-slide-item {
-  position: absolute;
-  display: block;
+  position: relative;
   height: 100%;
+  display: block;
   border: 1px solid #e8e8e8;
   overflow: hidden;
   border-radius: 10px;
@@ -55,60 +55,71 @@
   height: 456px;
 }
 .live-img img {
-  position: absolute;
+  position: relative;
   height: 100%;
 }
 .live-info {
   position: relative;
-  display: flex;
+  top: 20px;
+  display: block;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
+
 .live-info-icon {
   position: relative;
+  width: 69px;
   display: block;
-  color: #fff;
+  padding: 0 12px;
+  background-color: #333;
+  font-size: 13px;
   font-style: normal;
-  background-color: #333
-  border-radius: 10px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff;
+  border-radius: 44px;
 }
+
 .live-info-desc {
   position: relative;
-  padding: 25px 22px;
-  font-size: 1.4rem;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  margin-top: 10px;
   font-weight: 700;
   color: #fff;
 }
 .live-info-date {
   position: relative;
   font-size: 2.8rem;
-  text-align: center;
+  line-height: 3.4rem;
   color: #fff;
+  text-align: center;
 }
 .live-info-time {
   position: relative;
 
   font-size: 2.8rem;
-  text-align: center;
 
   color: #fff;
+  text-align: center;
 }
 .live-info-bottom {
   position: absolute;
   bottom: 12px;
   height: 40px;
   padding: 0 12px;
-
 }
 
 .live-info-bottom img {
   position: absolute;
-  margin: 360px 20px;
   width: 64px;
   height: 64px;
+  margin: 360px 20px;
 }
 .live-info-bottom a {
   position: absolute;
   display: block;
-  margin
+
   font-size: 1.8rem;
   color: #fff;
 }
